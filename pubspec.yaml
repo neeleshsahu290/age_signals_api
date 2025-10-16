@@ -1,7 +1,8 @@
 name: age_signals_flutter
-description: "A new Flutter plugin project."
+description: "Flutter plugin to access Google Play Age Signals (Android)"
 version: 0.0.1
-homepage:
+homepage: https://github.com/neeleshsahu290/flutter_age_signals_api
+license: MIT
 
 environment:
   sdk: ^3.9.2
