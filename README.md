@@ -1,16 +1,22 @@
-# age_signals_flutter
 
-A new Flutter plugin project.
 
-## Getting Started
+# age_signals_flutter (Alpha)
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/to/develop-plugins),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+A **Flutter plugin** providing a unified API for **age-appropriate experiences** across platforms — bridging:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 🟢 **Google Play Age Signals API** (Android)
+- 🔵 **Apple Declared Age Range API** (iOS 17+)
 
-# age_signals_api
+Built with a **platform channel + FFI architecture** for high-performance, fully typed native integration.
+
+> [!IMPORTANT]
+>
+> - As of **October 2025**, both Google and Apple’s APIs for Age Signal & Declared Age Range are in limited response mode.
+> - Once these APIs stabilize, this package will be updated accordingly.
+
+---
+
+## 📦 Installation
+
+```bash
+flutter pub add age_signals_flutter
