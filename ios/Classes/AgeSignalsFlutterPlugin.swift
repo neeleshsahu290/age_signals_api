@@ -15,7 +15,15 @@ public class AgeSignalsFlutterPlugin: NSObject, FlutterPlugin {
       if #available(iOS 17.0, *) {
         do {
           if let ageRange = try DCAppAttestService.shared.getAgeRange() {
-            result(String(describing: ageRange))
+
+            let data: [String: Any?] = [
+             "userStatus": ageRange.userStatus,
+             "ageLower": ageRange.lowerBound,
+             "ageUpper": ageRange.upperBound,
+             "installId": ageRange.installId,
+             "mostRecentApprovalDate": ageRange.mostRecentApprovalDate
+             ]
+           result(data)
           } else {
             result("unknown")
           }
