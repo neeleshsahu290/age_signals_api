@@ -1,5 +1,7 @@
 name: age_signals_flutter_example
 description: "Demonstrates how to use the age_signals_flutter plugin."
+homepage: https://github.com/neeleshsahu290/flutter_age_signals_api
+repository: https://github.com/neeleshsahu290/flutter_age_signals_api
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
