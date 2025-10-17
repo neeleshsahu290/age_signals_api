@@ -1,6 +1,6 @@
 name: age_signals_flutter
-description: "Flutter plugin to access Google Play Age Signals (Android)"
-version: 0.0.1
+description: "Flutter plugin to access Google Play Age Signals (Android) and Apple Declared Age Range API (iOS) for age-appropriate experiences."
+version: 0.0.2
 homepage: https://github.com/neeleshsahu290/flutter_age_signals_api
 license: MIT
 
@@ -39,7 +39,8 @@ flutter:
       android:
         package: dev.fluttercommunity.age_signals_flutter.age_signals_flutter
         pluginClass: AgeSignalsFlutterPlugin
-
+      ios:
+        pluginClass: AgeSignalsFlutterPlugin
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
